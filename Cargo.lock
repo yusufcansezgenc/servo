@@ -490,6 +490,7 @@ dependencies = [
  "devtools_traits 0.0.1",
  "euclid 0.15.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "gaol 0.0.1 (git+https://github.com/servo/gaol)",
+ "gecko-media 0.1.0 (git+https://github.com/servo/gecko-media.git)",
  "gfx 0.0.1",
  "gfx_traits 0.0.1",
  "hyper 0.10.13 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1009,7 +1010,7 @@ dependencies = [
 [[package]]
 name = "gecko-media"
 version = "0.1.0"
-source = "git+https://github.com/servo/gecko-media.git#0299b455a062bcbfe038bfd90bb173ad9b98d5c7"
+source = "git+https://github.com/servo/gecko-media.git#a6a7d122987778d1acfe1efaefcb6cca6d9caee6"
 dependencies = [
  "bindgen 0.31.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "cmake 0.1.27 (registry+https://github.com/rust-lang/crates.io-index)",
